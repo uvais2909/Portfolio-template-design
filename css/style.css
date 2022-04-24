@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #162534;
+}
+
+.header{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#theme-button{
+    cursor: pointer;
+    color: #FFF;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+#theme-button:hover{
+    background-color: rgba(255, 141, 95,0.9);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #fff;
+    font-style: normal;
+    transition: 0.5s;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.logo:hover{
+    background-color: rgba(255, 141, 95,0.9);
+}
+.nav-menu{
+    position: fixed;
+    bottom: 1rem;
+    border-radius: 4rem;
+    background-color: rgb(255, 141, 95);
+    width: 35%;
+    padding: 10px;
+    margin-left: 410px;
+    border: 2px solid #162534;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-items{
+    font-size: 25px;
+}
+.nav-link{
+    color: whitesmoke;
+    font-style: normal;
+    padding: 10px;
+    display: flex;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    background-color: #162534;
+    color: #FFF;
+}
+
+/*about div css*/
+.aboutme {
+    color: #FFF;
+    background-color: transparent;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    margin-left: 310px;
+    margin-top: 90px;
+    position: relative;
+    z-index: 1;
+}
+
+.CVbtn{
+    margin-top: 70px;
+    cursor: pointer;
+    height: 40px;
+    width: 125px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 160, 122);
+    background-color: transparent;
+    color: #FFF;
+    position: relative;
+}
+#spaneffectcv {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0;
+    
+    top: 0;
+    border-radius: 5px;
+    background-color: rgb(255, 160, 122);
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.CVbtn:hover #spaneffectcv {
+    width: 100%;
+}
+
+.aboutbtn{
+    color: #FFF;
+    margin-top: 70px;
+    cursor: pointer;
+    height: 40px;
+    width: 125px;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: rgba(255, 160, 122,0.9);
+    border: 1px solid rgb(255, 160, 122);
+    position: relative;
+    z-index: 1;
+}
+
+#spaneffectabout{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: #162534;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    transition: 0.5s;
+    z-index: -1;
+}
+.aboutbtn:hover #spaneffectabout{
+    width: 100%;
+}
+
+/*profile image*/
+
+.profile{
+    margin-top: 20px;
+    clip-path: circle(140px);
+}
+
+/*about me section*/
+
+#abl-id{
+    color: rgb(255, 141, 95);
+}
+.section-about{
+    text-align: center;
+    color: #FFF;
+    margin-top: 30px;
+    padding: 30px;
+    position: relative;
+}
+#Headine-aboutme{
+    color: rgb(255, 141, 95);
+}
+
+.profile-about{
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 140px;
+}
+.about-img{
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+.about-wrapper{
+    width: 60%;
+    margin-left: 500px;
+    margin-top: -300px;
+    display: flex;
+    padding: 10px;
+}
+#abtspan{
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+    border-radius: 15px;
+}
+.bx-medal{
+    font-size: 32px;
+}
+.bx-briefcase-alt{
+    font-size: 32px;
+}
+.bx-headphone{
+    font-size: 32px;
+}
+.sp1{
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.sp2{
+    margin-top: -10px;
+    width: 200px;
+    margin-right: 10px;
+}
+.sp3{
+    margin-top: -10px;
+    width: 200px;
+}
+
+.abttxt{
+    width: 52.5%;
+    margin-left: 500px;
+    padding: 20px;
+}
+#contbtn{
+    float: left;
+    margin-left: 25px;
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: rgb(255, 141, 95);
+    color: #FFF;
+    border: 2px solid rgb(255, 141, 95);
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+#contspan{
+    position: absolute;
+    background-color: #162534;
+    width: 0%;
+    height: 100%;
+    border-radius: 15px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+#contbtn:hover #contspan{
+    width: 100%;
+}
+
+/*section-exp*/
+.section-exp{
+    margin-top: 100px;
+    text-align: center;
+    color: #FFF;
+    padding: 20px;
+}
+.frontend-wrapper{
+    background-color: teal;
+    width: 30%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#ul-exp1 li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+}
+.backend-wrapper{
+    background-color: teal;
+    width: 30%;
+    padding: 15px;
+    margin-top: -370px;
+    margin-left: 680px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#ul-exp2 li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+}
+.frontend-wrapper:hover{
+    background-color: rgba(0, 128, 128,0.7);
+}
+.backend-wrapper:hover{
+    background-color: rgba(0, 128, 128,0.7);
+}
+
+/*---------recent work section-----------*/
+.section-recentwork{
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 20px;
+}
+#work-id{
+    color: rgb(255, 141, 95);
+}
+.work-wrapper{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.work-col{
+    background-color: teal;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+.work-col:hover {
+    background-color: rgba(0, 128, 128,0.6);
+}
+
+/*-----------contact section-----------*/
+.section-contact{
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 20px;
+}
+#cont-id{
+    color: rgb(255, 141, 95);
+}
+.cont-wrapper{
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: grid;
+}
+.bx-envelope{
+    font-size: 30px;
+}
+.bxl-whatsapp{
+    font-size: 30px;
+}
+.bxl-messenger{
+    font-size: 30px;
+}
+.cont-span{
+      background-color: teal;
+      height: 130px;
+      width: 400px;
+      padding: 10px;
+      margin-left: 390px;
+      margin-top: 20px;
+      border-radius: 20px;
+}
+.cont-span:hover{
+    background-color: rgba(0, 128, 128,0.6);
+}
+
+/*-------footer---------*/
+footer{
+    background-color: rgba(255, 141, 95,0.8);
+    color: #FFF;
+    text-align: center;
+    height: 330px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.socialmedia-span{
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+#footerid{
+    font-size: 20px;
+    margin-top: 25px;
+    color: #FFF;
+}
+
+@media only screen and (max-width:700px) {
+    .logo{
+        font-size: 20px;
+    }
+    #theme-button{
+        font-size: 20px;
+    }
+    .nav-container{
+        width: 412px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .aboutme{
+        width: 396px;
+        float: right;
+    }
+    .aboutme p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .aboutme h1{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .aboutme .profile{
+        clip-path: circle(90px);
+    }
+    .aboutme{
+        margin-top: -500px;
+        margin-left: -10px;
+    }
+    .section-about{
+        height: 900px;
+        margin-top: 600px;
+        width: 395px;
+        margin-left: 10px;
+    }
+    .section-about p{
+        font-size: 15px;
+    }
+    .section-about h1{
+        font-size: 20px;
+    }
+    .profile-about{
+        height: 250px;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .about-wrapper{
+        margin-left: -30px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        height: 180px;
+        margin-top: 40px;
+        width: 395px;
+    }
+    #abtspan{
+        height: 130px;
+        width: 160px;
+        margin-top: 10px;
+    }
+
+    .sp1 h2{
+        font-size: 15px;
+    }
+    .bx-medal{
+        font-size: 20px;
+    }
+    .sp1 p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .bx-briefcase-alt{
+        font-size: 20px;
+    }
+    .sp2 h2{
+        font-size: 15px;
+    }
+    .sp2 p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .bx-headphone{
+        font-size: 20px;
+    }
+    .sp3 h2{
+        font-size: 15px;
+    }
+    .sp3 p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .abttxt{
+        margin-left: -23px;
+        margin-top: 20px;
+        width: 380px;
+        height: 250px;
+    }
+    .abttxt #contbtn{
+        margin-left: 110px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .section-exp{
+        width: 395px;
+        height: 900px;
+        margin-left: 10px;
+    }
+    .section-exp p{
+        font-size: 15px;
+    }
+    .section-exp h1{
+        font-size: 20px;
+    } 
+    .section-exp .frontend-wrapper{
+        margin-left: 30px;
+        width: 300px;
+
+    }
+    .section-exp .backend-wrapper h2{
+        font-size: 20px;
+    }
+    .section-exp .backend-wrapper{
+        margin-left: 30px;
+        margin-top: 40px;
+        width: 300px;
+
+    }
+    .section-exp .backend-wrapper h2{
+        font-size: 20px;
+    }
+
+    .section-recentwork{
+        width: 395px;
+        margin-left: 10px;
+    }
+    .section-recentwork p{
+        font-size: 10px;
+    }
+    .section-recentwork h2{
+        font-size: 20px;
+    }
+    .work-wrapper{
+        display: grid;
+    }
+    .work-col h3{
+        font-size: 17px;
+    }
+    .work-col p{
+        font-size: 13px;
+    }
+    .section-contact{
+        width: 395px;
+        margin-left: 10px;
+    }
+    .section-contact p{
+        font-size: 15px;
+    }
+    .section-contact h2{
+        font-size: 20px;
+    }
+    .section-contact .cont-wrapper{
+        margin-left: 0;
+    }
+    .section-contact .cont-wrapper .cont-span{
+        margin-left: 40px;
+        height: 100px;
+        width: 250px;
+        font-size: 15px;
+    }
+}

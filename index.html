@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Portfolio</title>
+
+            <!--linking css file-->
+            <link rel="stylesheet" href="css/style.css">
+
+            <!--importing icons-->
+            <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        </head>
+           
+        <body>
+            <header class="header">
+                <!--navigation-->
+                <div class="nav-container">
+                    <a href="#" class="logo">Uvais Ahmed</a>
+
+                    <div class="nav-menu">
+                        <ul class="nav-list">
+                            
+                            <!--home-->
+                            <li class="list-items">
+                                <a href="#home" class="nav-link">
+                                    <i class='bx bx-home-alt'></i>
+                                </a>
+                            </li>
+
+                            <!--user-->
+                            <li class="list-items">
+                                <a href="#user" class="nav-link">
+                                    <i class='bx bx-user'></i>
+                                </a>
+                            </li>
+
+                            <!--skills-->
+                            <li class="list-items">
+                                <a href="#skills" class="nav-link">
+                                    <i class='bx bx-book'></i>
+                                </a>
+                            </li>
+
+                            <!--work-->
+                            <li class="list-items">
+                                <a href="#work" class="nav-link">
+                                    <i class='bx bxs-briefcase'></i>
+                                </a>
+                            </li>
+
+                            <!--contact-->
+                            <li class="list-items">
+                                <a href="#contact" class="nav-link">
+                                    <i class='bx bx-message-square-dots'></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!--theme changing button-->
+                    <i class='bx bx-moon change theme' id="theme-button"></i>
+
+                </div>
+            </header>
+
+
+            <!--content div-->
+            <div class="aboutme">
+                <p>Hello, I'm</p>
+                <h1>Uvais Ahmed</h1>
+                <p>Frontend developer</p>
+
+                <button type="button" class="CVbtn"><span id="spaneffectcv"></span>Download CV</button>
+                <button type="button" class="aboutbtn"><span id="spaneffectabout"></span>About</button>
+
+                <!--profile image-->
+                
+                <img class="profile" src="images/profile.jpg" height="90%" width="70%">
+
+            </div>
+
+            <!--aboutme section-->
+            <div class="section-about">
+
+                <p>My Intro</p>
+                <h1 id="Headine-aboutme">About Me</h1>
+
+                <div class="profile-about">
+                    <img class="about-img" src="images/profile.jpg">
+                </div>
+
+                <div class="about-wrapper">
+                    <span id="abtspan" class="sp1">
+                        <i class='bx bx-medal'></i>
+                        <h2>Experience</h2>
+                        <p>8 years of experience</p>
+                    </span>
+
+                    <span id="abtspan" class="sp2">
+                        <i class='bx bx-briefcase-alt'></i>
+                        <h2>Completed</h2>
+                        <p>46+ Projects</p>
+                    </span>
+
+                    <span id="abtspan" class="sp3">
+                        <i class='bx bx-headphone'></i>
+                        <h2>Support</h2>
+                        <p>Online 24/7</p>
+                    </span>
+                </div>
+
+                <div class="abttxt">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, doloribus quo corrupti odit deleniti perferendis, in voluptate ut accusamus, commodi facere! Labore debitis facilis est, ipsa ratione obcaecati amet et.</p>
+
+                    <button id="contbtn" type="button"><span id="contspan"></span>Contact me</button>
+                </div>
+            </div>
+
+            <!--section-experience-->
+            <div class="section-exp">
+
+                <p>My abilities</p>
+                <h1 id="abl-id">My Experience</h1>
+
+                <div class="frontend-wrapper">
+                    <h2>Frontend developer</h2>
+
+                    <ul id="ul-exp1">
+                        <li>
+                            <i class='bx bxl-html5'></i>&nbspHTML
+                        </li>
+
+                        <li>
+                            <i class='bx bxl-bootstrap'></i>&nbspBootstrap
+                        </li>
+
+                        <li>
+                            <i class='bx bxl-css3'></i>&nbspCSS
+                        </li>
+
+                        <li>
+                            <i class='bx bxl-javascript'></i>&nbspJavascript
+                        </li>
+
+                        <li>
+                            <i class='bx bxl-react'></i>&nbspReact
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="backend-wrapper">
+                    <h2>Backend developer</h2>
+
+                    <ul id="ul-exp2">
+                        <li>
+                            <i class='bx bxl-php'></i>&nbspPHP
+                        </li>
+
+                        <li>
+                            <i class='bx bxl-nodejs'></i>&nbspNode Js
+                        </li>
+
+                        <li>
+                            <i class='bx bxl-mongodb'></i>&nbspMongo Db
+                        </li>
+
+                        <li>
+                            <i class='bx bxl-firebase'></i>&nbspFirebase
+                        </li>
+
+                        <li>
+                            <i class='bx bxl-python'></i>&nbspPython
+                        </li>
+
+                    </ul>
+                </div>  
+
+            </div>
+
+            <!--recent works section-->
+            <div class="section-recentwork">
+                <p>Web projects</p>
+                <h2 id="work-id">My recent works</h2>
+
+                <div class="work-wrapper">
+                    <span class="work-col">
+                        <h3>Lorem Ipsum</h3><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eius repellat possimus quidem quis eos perspiciatis qui perferendis cupiditate odio!</p>
+                    </span>
+
+                    <span class="work-col">
+                        <h3>Lorem Ipsum</h3><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem Debitis possimus ad ipsum illum facilis consectetur optio quae fugiat ipsa expedita quo?</p>
+                    </span>
+
+                    <span class="work-col">
+                        <h3>Lorem Ipsum</h3><br>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem neque enim beatae nostrum expedita corrupti quaerat eligendi magnam provident porro.</p>
+                    </span>
+
+                    <span class="work-col">
+                        <h3>Lorem Ipsum</h3><br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi officia voluptatem iure reprehenderit voluptates nam, illum pariatur repellat maiores accusantium?</p>
+                    </span>
+
+                </div>
+            </div>
+
+            <!--section-contact me -->
+            <div class="section-contact">
+                <p>Get in touch</p>
+                <h2 id="cont-id">Contact Me</h2>
+
+                <div class="cont-wrapper">
+                    <span class="cont-span">
+                        <i class='bx bx-envelope'></i>
+                        <p>Email</p>
+                        <p>Userxyz@gmail.com</p>
+                    </span>
+
+                    <span class="cont-span">
+                        <i class='bx bxl-whatsapp'></i>
+                        <p>Whats-app</p>
+                        <p>123-456-7890</p>
+                    </span>
+
+                    <span class="cont-span">
+                        <i class='bx bxl-messenger'></i>
+                        <p>Messenger</p>
+                        <p>abc.fb123</p>
+                    </span>
+                </div>
+            </div>
+           
+        </body>
+        <footer>
+            <h1>Uvais Ahmed</h1>
+            <div class="socialmedia-span">
+                <i class='bx bxl-facebook-square'></i>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+
+            <p id="footerid">This Portfolio is for only learning purpose</p>
+        </footer>
+    </html>
